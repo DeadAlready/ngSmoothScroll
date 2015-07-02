@@ -1,9 +1,10 @@
 {
   "name": "ngSmoothScroll",
-  "version": "1.7.2",
-  "homepage": "https://github.com/d-oliveros/ngSmoothScroll",
+  "version": "1.8.0",
+  "homepage": "https://github.com/DeadAlready/ngSmoothScroll",
   "authors": [
-    "David Oliveros <dato.oliveros@gmail.com>"
+    "David Oliveros <dato.oliveros@gmail.com>",
+    "Karl Düüna <karl.dyyna@gmail.com>"
   ],
   "description": "A pure-javascript library and set of directives to scroll smoothly to an element with easing.",
   "main": "lib/angular-smooth-scroll.js",
