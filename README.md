@@ -62,7 +62,7 @@ Example:
 ```html
 
 // Basic
-<a href="#" scroll-to="my-element-3">Click me!</a>
+<a href="#" scroll-to="my-element-3" stop-for-interruptions>Click me!</a>
 
 
 // With options
@@ -88,6 +88,7 @@ var options = {
 	duration: 700,
 	easing: 'easeInQuad',
 	offset: 120,
+	stopForInterruptions: true,
 	callbackBefore: function(element) {
 		console.log('about to scroll to element', element);
 	},
